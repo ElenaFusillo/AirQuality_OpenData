@@ -25,6 +25,7 @@ train_split = 0.9
 validation_split = 0.1
 
 sequence_length = shift_steps * 3
+#sequence_length = shift_steps * 1 #if I consider only 1 day before, and not 3 days before?
 hidden_layer_size = 32
 
 batch_size = 128
